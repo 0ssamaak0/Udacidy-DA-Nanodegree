@@ -1,0 +1,248 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body {
+  background: #edf0f5 !important;
+  font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+div.bigtitle {
+  margin-top: 20px;
+  color: #404b5a;
+  font-size: 5em;
+  text-align: center;
+}
+
+@media (max-width: 767.98px) {
+  div.bigtitle {
+    font-size: 3em;
+  }
+}
+
+div.title {
+  color: white;
+  width: 100%;
+  font-size: 3em;
+}
+
+@media (max-width: 767.98px) {
+  div.title {
+    font-size: 1.5em;
+  }
+}
+
+div.form div.form-row {
+  min-height: 700px;
+  max-width: 575px;
+  margin: 40px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background: #404b5a;
+  border-radius: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 767.98px) {
+  div.form div.form-row {
+    min-height: 400px;
+  }
+}
+
+div.form div.form-row div.inputs {
+  width: 100%;
+}
+
+div.form div.form-row div.inputs label.input_label {
+  margin: 20px;
+  text-align: center;
+  font-size: 1.3em;
+  width: 30%;
+  border-radius: 15px;
+  padding: 15px;
+  background: white;
+  color: #b4cbe9;
+}
+
+@media (max-width: 767.98px) {
+  div.form div.form-row div.inputs label.input_label {
+    font-size: 0.7em;
+    width: 40%;
+    padding: 10px 5px;
+    margin: 10px;
+  }
+}
+
+div.form div.form-row div.inputs input[type="radio"]:checked + label {
+  background: #b4cbe9;
+  color: white;
+}
+
+div.form div.form-row.hidden {
+  opacity: 0;
+}
+
+div.form div.form-row.hiddenafter {
+  display: none !important;
+}
+
+div.form button.navBtn {
+  color: #a83e3e;
+  margin: 20px;
+  font-size: 1.3em;
+  border-radius: 15px;
+  width: 155px;
+  padding: 15px 0;
+  background: white;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 767.98px) {
+  div.form button.navBtn {
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 767.98px) {
+  div.form button.navBtn {
+    width: 70px;
+  }
+}
+
+div.form button.navBtn:hover, div.form button.navBtn:focus {
+  color: white;
+  background-color: #a83e3e;
+}
+
+div.form button.navBtn.disabled {
+  color: #ca8585;
+  background: #ddc3c3;
+}
+
+div.form button.navBtn.disabled:hover {
+  cursor: not-allowed;
+  color: #ca8585;
+  background: #ddc3c3;
+}
+
+div.results {
+  min-height: 400px;
+  max-width: 576px;
+  margin: 30px 60px;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  background: #404b5a;
+  border-radius: 50px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 767.98px) {
+  div.results {
+    font-size: 0.8em;
+    padding: 15px;
+    margin: 20px 60px;
+    min-height: 200px;
+  }
+}
+
+div.results div.data-container.hidden {
+  opacity: 0;
+}
+
+div.results div.data-container.hiddenafter {
+  display: none;
+}
+
+div.results div.selectors button.selector {
+  text-align: center;
+  color: #b4cbe9;
+  margin: 20px 15px;
+  width: 30%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 15px;
+  padding: 13px;
+  background: white;
+  outline: none;
+  border: none;
+}
+
+@media (max-width: 767.98px) {
+  div.results div.selectors button.selector {
+    font-size: 0.6em;
+  }
+}
+
+div.results div.selectors button.selector:hover, div.results div.selectors button.selector:focus {
+  color: white;
+  background-color: #b4cbe9;
+}
+
+div.results div.data_viewer div.quantity {
+  color: white;
+  font-size: 1.6em;
+}
+
+@media (max-width: 767.98px) {
+  div.results div.data_viewer div.quantity {
+    font-size: 0.9em;
+  }
+}
+
+div.results div.data_viewer div.value {
+  color: #c3fd6c;
+  font-size: 1.5em;
+}
+
+@media (max-width: 767.98px) {
+  div.results div.data_viewer div.value {
+    font-size: 0.8em;
+  }
+}
+
+div.results div.data_viewer div.subtitle {
+  color: white;
+  font-size: 1.6em;
+}
+
+@media (max-width: 767.98px) {
+  div.results div.data_viewer div.subtitle {
+    font-size: 1.1em;
+  }
+}
+
+div.results div.data_viewer div.row {
+  margin-top: 10px;
+}
+
+footer {
+  margin-top: 20px;
+  height: 50px;
+  color: #404b5a;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #404b5a;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer div.wrapper {
+  width: 70%;
+}
+/*# sourceMappingURL=style.css.map */

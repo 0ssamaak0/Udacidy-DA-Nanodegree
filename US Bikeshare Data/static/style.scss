@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 0.3s;
+}
+
+body{
+    background: #edf0f5 !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+}
+
+div.bigtitle{
+    margin-top: 20px;
+    color: #404b5a;
+    @media (max-width:767.98px){
+        font-size: 3em;
+    }
+    font-size: 5em;
+    text-align: center;
+}
+
+div.title{
+    color: white;
+    width: 100%;
+    @media (max-width:767.98px){
+        font-size: 1.5em;
+    }
+    font-size: 3em;
+}
+div.form{
+    div.form-row{
+        @media (max-width:767.98px){
+            min-height: 400px;
+        }
+        min-height: 700px;
+        max-width: 575px;
+        margin: 40px;
+        padding: 30px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        background: #404b5a;
+        border-radius: 50px;
+        flex-wrap: wrap;
+        div.inputs{
+            width: 100%;
+            label.input_label{
+                margin: 20px;
+                text-align: center;
+                @media (max-width:767.98px){
+                    font-size: 0.7em;
+                    
+                    width: 40%;
+                    padding: 10px 5px;
+                    margin: 10px;
+                }
+                font-size: 1.3em;
+
+                width: 30%;
+                border-radius: 15px;
+                padding: 15px;
+                background: white;
+                color: #b4cbe9;
+            }
+            input[type="radio"]:checked + label{
+                background: #b4cbe9;
+                color: white;
+            }
+        }
+        &.hidden{
+            opacity: 0;
+        }
+        &.hiddenafter{
+            display: none !important;
+        }
+    }
+    button.navBtn{
+        color: #a83e3e;
+        margin: 20px;
+        @media (max-width:767.98px){
+            font-size: 0.8em;
+        }
+        font-size: 1.3em;
+        border-radius: 15px;
+        @media (max-width:767.98px){
+            width: 70px;
+        }
+        width: 155px;
+        padding: 15px 0;
+        background: white;
+        outline: none;
+        border: none;
+        &:hover, &:focus{
+            color: white;
+            background-color: #a83e3e;
+        }
+        &.disabled{
+            color: #ca8585;
+            background: rgb(221, 195, 195);
+            &:hover{
+                cursor: not-allowed;
+                color: #ca8585;
+                background: rgb(221, 195, 195);
+            }
+        }
+   }
+}
+
+div.results{
+    @media (max-width:767.98px){
+        font-size: 0.8em;
+        padding: 15px;
+        margin: 20px 60px;
+        min-height: 200px;
+    }
+    min-height: 400px;
+    max-width: 576px;
+    margin: 30px 60px;
+    padding: 30px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: #404b5a;
+    border-radius: 50px;
+    flex-wrap: wrap;
+    div.data-container{
+        &.hidden{
+            opacity: 0;
+        }
+        &.hiddenafter{
+            display: none;
+        }
+    }
+    div.selectors{
+        button.selector{
+        text-align: center;
+        @media (max-width:767.98px){
+            font-size: 0.6em;
+        }
+        color: #b4cbe9;
+        margin: 20px 15px;
+        width: 30%;
+        height: fit-content;
+        border-radius: 15px;
+        padding: 13px;
+        background: white;
+        outline: none;
+        border: none;
+        &:hover, &:focus{
+            color: white;
+            background-color: #b4cbe9;
+        }
+        }
+    }
+    div.data_viewer{
+        div.quantity{
+            color: white;
+            @media (max-width:767.98px){
+                font-size: 0.9em;
+            }
+            font-size: 1.6em;
+        }
+        div.value{
+            color: rgb(195, 253, 108);
+            @media (max-width:767.98px){
+                font-size: 0.8em;
+            }
+            font-size: 1.5em;
+        }
+        div.subtitle{
+            color: white;
+            @media (max-width:767.98px){
+                font-size: 1.1em;
+            }
+            font-size: 1.6em;
+        }
+        div.row{
+            margin-top: 10px;
+        }
+    }
+}
+
+footer{
+    margin-top: 20px;
+    height: 50px;
+    color: #404b5a;
+    margin-bottom: 10px;
+    a{
+        text-decoration: none;
+        color: #404b5a;
+        &:hover{
+            color: black;
+        }
+    }
+    div.wrapper{
+        width: 70%;
+    }
+}
