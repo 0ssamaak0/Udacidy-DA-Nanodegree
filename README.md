@@ -16,4 +16,4 @@ Web Application link: http://usbikesharedata.pythonanywhere.com/
 
 ## Project 2: Wrangle and Analyze Data
 
-All Details in the Jupyter Notebook
+All Details of the wrangling process are discussed and explained in the Juypter Notebook
