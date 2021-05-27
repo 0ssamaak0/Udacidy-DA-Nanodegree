@@ -5,8 +5,6 @@ The first two technical projects in Udacity Data Analysis Nanodegree - The profe
 
 January 2021 Cohort
 
-Web Application link: http://usbikesharedata.pythonanywhere.com/
-
 ### P.S There's another version : "Terminal Version" file which runs through the terminal.
 =======
 
