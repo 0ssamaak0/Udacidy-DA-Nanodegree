@@ -3,7 +3,6 @@ The first two technical projects in Udacity Data Analysis Nanodegree - The profe
 
 ## Project 1: US Bikeshare Data
 January 2021 Cohort
-
 P.S There's another version : "Terminal Version" file which runs through the terminal.
 =======
 
